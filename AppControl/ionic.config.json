@@ -1,0 +1,7 @@
+{
+  "name": "AppControl",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

@@ -1,0 +1,48 @@
+<ion-content [fullscreen]="true" class="ion-padding">
+  <ion-grid>
+    <ion-row>
+      <ion-col size="6">
+        <ion-card (click)="sendCommand('Nyalakan Lampu Merah')">
+          <ion-card-header>
+            <ion-card-title>Merah</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <ion-icon name="bulb" style="color: red;" size="large"></ion-icon>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+      <ion-col size="6">
+        <ion-card (click)="sendCommand('Nyalakan Lampu Hijau')">
+          <ion-card-header>
+            <ion-card-title>Hijau</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <ion-icon name="bulb" style="color: green;" size="large"></ion-icon>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="6">
+        <ion-card (click)="sendCommand('Nyalakan Lampu Biru')">
+          <ion-card-header>
+            <ion-card-title>Biru</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <ion-icon name="bulb" style="color: blue;" size="large"></ion-icon>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+      <ion-col size="6">
+        <ion-card (click)="sendCommand('Matikan Lampu')">
+          <ion-card-header>
+            <ion-card-title>Off</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <ion-icon name="bulb" style="color: gray;" size="large"></ion-icon>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
